@@ -33,7 +33,11 @@ styleInject(css_248z);
 const Support = ({ label }) => {
     const [clicked, setClicked] = useState(false);
     const onClicked = useCallback(() => setClicked(!clicked), [clicked]);
-    return (React.createElement("div", { className: css_248z.ycs, onClick: onClicked }, label));
+    console.log(css_248z);
+    return (React.createElement("div", { className: css_248z.ycs, onClick: onClicked },
+        label,
+        " ",
+        clicked ? 1 : 2));
 };
 
 export { Support };
