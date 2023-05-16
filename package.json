@@ -9,7 +9,7 @@
     "build": "rollup --config"
   },
   "author": "koshelenok",
-  "main": "dist/cjs/index.js",
+  "main": "dist/index.d.ts",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.3",
