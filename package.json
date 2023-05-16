@@ -32,7 +32,6 @@
   },
   "types": "dist/index.d.ts",
   "files": [
-    "src",
     "dist"
   ]
 }
